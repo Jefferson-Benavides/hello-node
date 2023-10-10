@@ -1,0 +1,16 @@
+{
+  "name": "node_hello",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "arrancar": "node app.js",
+    "node_demonio": "nodemon node_hello --inspect"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
